@@ -66,24 +66,26 @@
           <div class="card-body">
             <div class="form-group">
               <label for="firstName">FirstName</label>
-              <input type="text" class="form-control" id="firstName" placeholder="FirstName">
+              <input type="text" class="form-control" name="first_name" id="firstName" placeholder="FirstName" required>
             </div>
             <div class="form-group">
               <label for="lastName">LastName</label>
-              <input type="text" class="form-control" id="lastName" placeholder="LastName">
+              <input type="text" class="form-control" name="last_name" id="lastName" placeholder="LastName" required>
             </div>
             <div class="form-group">
               <label for="username">Username</label>
-              <input type="text" class="form-control" id="username" placeholder="Username">
+              <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password">
+                <input type="password" class="form-control" name="password " id="password" placeholder="Password" required>
             </div>
             <div class="form-group">
               <label>Select Permission</label>
-              <select class="form-control">
+              <select class="form-control" required>
+                <option value="" disabled selected>Select Permission</option>
                 <option value="admin">Admin</option>
+                <option value="superadmin">SuperAdmin</option>
               </select>
             </div>
           </div>
