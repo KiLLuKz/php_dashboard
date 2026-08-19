@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 4 - Forms</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta2/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+  <div class="app-wrapper">
+    
+    <nav class="app-header navbar navbar-expand bg-body shadow-sm">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-lte-toggle="sidebar-toggle" href="#" role="button">
+              <i class="bi bi-list fs-4"></i>
+            </a>
+          </li>
+          <li class="nav-item d-none d-md-block"><a href="index.html" class="nav-link">หน้าหลัก</a></li>
+          <li class="nav-item d-none d-md-block"><a href="forms.html" class="nav-link active">ฟอร์ม</a></li>
+          <li class="nav-item d-none d-md-block"><a href="tables.html" class="nav-link">ตารางข้อมูล</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
+      <div class="sidebar-brand">
+        <a href="index.html" class="brand-link">
+          <span class="brand-text fw-bold">AdminLTE 4</span>
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <nav class="mt-2">
+          <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <i class="nav-icon bi bi-speedometer"></i>
+                <p>Dashboard</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="forms.html" class="nav-link active">
+                <i class="nav-icon bi bi-pencil-square"></i>
+                <p>ฟอร์มป้อนข้อมูล (Forms)</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="tables.html" class="nav-link">
+                <i class="nav-icon bi bi-table"></i>
+                <p>ตารางข้อมูล (Tables)</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <main class="app-main">
+      <div class="app-content-header">
+        <div class="container-fluid">
+          <h3 class="mb-0">ตัวอย่างฟอร์ม (Form Components)</h3>
+        </div>
+      </div>
+
+      <div class="app-content">
+        <div class="container-fluid">
+          <div class="card card-primary card-outline mb-4">
+            <div class="card-header">
+              <h3 class="card-title">ฟอร์มลงทะเบียนสมาชิก</h3>
+            </div>
+            <form>
+              <div class="card-body">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">อีเมล (Email address)</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">รหัสผ่าน (Password)</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleSelect" class="form-label">ประเภทผู้ใช้งาน</label>
+                  <select class="form-select" id="exampleSelect">
+                    <option selected>เลือกสิทธิ์ผู้ใช้งาน...</option>
+                    <option value="1">Administrator</option>
+                    <option value="2">Editor</option>
+                    <option value="3">User</option>
+                  </select>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">ยอมรับเงื่อนไขการใช้งาน</label>
+                </div>
+              </div>
+              <div class="card-footer">
+                <button type="submit" class="btn btn-primary">บันทึกข้อมูล</button>
+                <button type="reset" class="btn btn-secondary ms-2">ยกเลิก</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="app-footer text-center text-md-start p-3 border-top bg-body">
+      <div class="float-end d-none d-sm-inline">AdminLTE v4.0</div>
+      <strong>Copyright &copy; 2026 AdminLTE.</strong> All rights reserved.
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta2/dist/js/adminlte.min.js"></script>
+</body>
+</html>

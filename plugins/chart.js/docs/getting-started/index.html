@@ -1,0 +1,912 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Getting Started Â· Chart.js documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="chartjs">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../style.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="installation.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chartjs/style.css">
+    <script src="../gitbook/gitbook-plugin-chartjs/Chart.bundle.js"></script>
+    <script src="../gitbook/gitbook-plugin-chartjs/chartjs-plugin-deferred.js"></script>
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Chart.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="installation.html">
+            
+                <a href="installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="integration.html">
+            
+                <a href="integration.html">
+            
+                    
+                    Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="usage.html">
+            
+                <a href="usage.html">
+            
+                    
+                    Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../general/">
+            
+                <a href="../general/">
+            
+                    
+                    General
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../general/responsive.html">
+            
+                <a href="../general/responsive.html">
+            
+                    
+                    Responsive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../general/device-pixel-ratio.html">
+            
+                <a href="../general/device-pixel-ratio.html">
+            
+                    
+                    Pixel Ratio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../general/interactions/">
+            
+                <a href="../general/interactions/">
+            
+                    
+                    Interactions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../general/interactions/events.html">
+            
+                <a href="../general/interactions/events.html">
+            
+                    
+                    Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../general/interactions/modes.html">
+            
+                <a href="../general/interactions/modes.html">
+            
+                    
+                    Modes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../general/options.html">
+            
+                <a href="../general/options.html">
+            
+                    
+                    Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../general/colors.html">
+            
+                <a href="../general/colors.html">
+            
+                    
+                    Colors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../general/fonts.html">
+            
+                <a href="../general/fonts.html">
+            
+                    
+                    Fonts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../configuration/">
+            
+                <a href="../configuration/">
+            
+                    
+                    Configuration
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../configuration/animations.html">
+            
+                <a href="../configuration/animations.html">
+            
+                    
+                    Animations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../configuration/layout.html">
+            
+                <a href="../configuration/layout.html">
+            
+                    
+                    Layout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../configuration/legend.html">
+            
+                <a href="../configuration/legend.html">
+            
+                    
+                    Legend
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../configuration/title.html">
+            
+                <a href="../configuration/title.html">
+            
+                    
+                    Title
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../configuration/tooltip.html">
+            
+                <a href="../configuration/tooltip.html">
+            
+                    
+                    Tooltip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../configuration/elements.html">
+            
+                <a href="../configuration/elements.html">
+            
+                    
+                    Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../charts/">
+            
+                <a href="../charts/">
+            
+                    
+                    Charts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../charts/line.html">
+            
+                <a href="../charts/line.html">
+            
+                    
+                    Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../charts/bar.html">
+            
+                <a href="../charts/bar.html">
+            
+                    
+                    Bar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../charts/radar.html">
+            
+                <a href="../charts/radar.html">
+            
+                    
+                    Radar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../charts/doughnut.html">
+            
+                <a href="../charts/doughnut.html">
+            
+                    
+                    Doughnut & Pie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../charts/polar.html">
+            
+                <a href="../charts/polar.html">
+            
+                    
+                    Polar Area
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../charts/bubble.html">
+            
+                <a href="../charts/bubble.html">
+            
+                    
+                    Bubble
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../charts/scatter.html">
+            
+                <a href="../charts/scatter.html">
+            
+                    
+                    Scatter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../charts/area.html">
+            
+                <a href="../charts/area.html">
+            
+                    
+                    Area
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../charts/mixed.html">
+            
+                <a href="../charts/mixed.html">
+            
+                    
+                    Mixed
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../axes/">
+            
+                <a href="../axes/">
+            
+                    
+                    Axes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../axes/cartesian/">
+            
+                <a href="../axes/cartesian/">
+            
+                    
+                    Cartesian
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../axes/cartesian/category.html">
+            
+                <a href="../axes/cartesian/category.html">
+            
+                    
+                    Category
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../axes/cartesian/linear.html">
+            
+                <a href="../axes/cartesian/linear.html">
+            
+                    
+                    Linear
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../axes/cartesian/logarithmic.html">
+            
+                <a href="../axes/cartesian/logarithmic.html">
+            
+                    
+                    Logarithmic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="../axes/cartesian/time.html">
+            
+                <a href="../axes/cartesian/time.html">
+            
+                    
+                    Time
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../axes/radial/">
+            
+                <a href="../axes/radial/">
+            
+                    
+                    Radial
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../axes/radial/linear.html">
+            
+                <a href="../axes/radial/linear.html">
+            
+                    
+                    Linear
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../axes/labelling.html">
+            
+                <a href="../axes/labelling.html">
+            
+                    
+                    Labelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../axes/styling.html">
+            
+                <a href="../axes/styling.html">
+            
+                    
+                    Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../developers/">
+            
+                <a href="../developers/">
+            
+                    
+                    Developers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../developers/api.html">
+            
+                <a href="../developers/api.html">
+            
+                    
+                    Chart.js API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../developers/updates.html">
+            
+                <a href="../developers/updates.html">
+            
+                    
+                    Updating Charts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../developers/plugins.html">
+            
+                <a href="../developers/plugins.html">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../developers/charts.html">
+            
+                <a href="../developers/charts.html">
+            
+                    
+                    New Charts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../developers/axes.html">
+            
+                <a href="../developers/axes.html">
+            
+                    
+                    New Axes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../developers/contributing.html">
+            
+                <a href="../developers/contributing.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../notes/">
+            
+                <a href="../notes/">
+            
+                    
+                    Additional Notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../notes/comparison.html">
+            
+                <a href="../notes/comparison.html">
+            
+                    
+                    Comparison Table
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../notes/extensions.html">
+            
+                <a href="../notes/extensions.html">
+            
+                    
+                    Popular Extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../notes/license.html">
+            
+                <a href="../notes/license.html">
+            
+                    
+                    License
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Getting Started</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="getting-started">Getting Started</h1>
+<p>Let&apos;s get started using Chart.js!</p>
+<p>First, we need to have a canvas in our page.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">canvas</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;myChart&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">canvas</span>&gt;</span>
+</code></pre>
+<p>Now that we have a canvas we can use, we need to include Chart.js in our page.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p>Now, we can create a chart. We add a script to our page:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> ctx = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;myChart&apos;</span>).getContext(<span class="hljs-string">&apos;2d&apos;</span>);
+<span class="hljs-keywozÛİ7¥ÚŞOv5Ñ(îmö ‚jˆü:
+:VÀ¹Øªã7ıS—•	‡§Yˆ¡w6.EsŞÆß„aÔ¥£O0¡r<ÉL…¥õÚe‹Ÿõ(Ç_{…Ç	ŠF%VùŠÎ=Qßïôæ”áxÉ)+;Qy4•Y‰ €TõÛ`y*[f¥¿{ls‰~&ùÆ|+£hA?¤F=ÂÑ’GŞÕÒè‡hœfÛp’?I×HJQÕY$Ëûk¨Lä°ÅáÉ2’Èg|û§àªíGÖş‹0|œkR 6¹m¶3m¥fØïéğÉ‡ŸŒ¦7´Í‹Ôsô
+ìG‚9ËƒâQ-ÊÜë2‰D(P
+UD¶]\ÉG×˜R1ÿƒÙå±¼Í%;âD)¬~÷Û£x¨í°ó²«‰Ï¨À,z2Úd¢H=L?'ˆÁâÍúá°n¶eöaÉ‚ã#QVfŞ¶ØS–ÜvÕ"½8"wU[Äš L"•§Hci¿­Ãü¬m`Š{³™ãNæ=§‚Ær$å@Jnª(¹t9˜Î¥Ÿ%I/
+eÃìNIä°buçÚóu2‡ñ %şËÔÏxĞîM:ÑôÿŞÔÜøj¢Ä¿|Âº-¿¾ÖÖ[ú’ÅAÖ·-|Rù–Â/P¤kö/èäW;T‹ŞöÎ5®ø†Şò1\JlÈo[ú`MU[yg33™ù1ƒjcÔğHX5'ÜÔ‘§Î‰[¡Öétã‘¶«“QDµL«qÓN7ÅGŞ²&Œ£>’Á¥œ³Œb¡N;ÀÆ2³m s‹ø gFõÌÆJ	ñàCò^²”V±UJã¡÷>‹ó¦œBaE	C~ñ#ôe»Çiv¨¹3ûJÏ‹öÌÇBŒ¥¥`—®`„hóØô®`ÕMÑº7Ä#ZOc:êÈ÷•BxFPŸ
+Ûí¸ƒ§)=˜à< ­`;®‚òƒÊv»¸Tçá]^Äxí£“t#`«v„C}ÈEË:ê[V—ß¥Éà5«dùCíqò*ÙÿD”¥vŸI–Oß³
+OT¨'3µ®HÜ²#>ÕÍ —Å¼Y:’Sq®¾®T‡I¯73ûús<¾ ÍôÏÛç¦ ¢¸•âÍ¥ÊÄØD7ùptî!¤z0ÿq€Ñé°À­ós±‚èÏæ¹Z
+'I2jY…Ñ@ìœWQıB TÆ0ròÈ¨E¨Bv1á¬lVµ´)U‚Š›Öõ
+3‹S}mÃv+•tª¡â'¨°Š¡^šòm»j'Né^Ÿ€ÁuS­ ¨ Ëêé–²@äïúäËå®y”+{ š1PqNõÄÀsnğj›š›>D–ºß>É!.§¼Yğˆã,é½ˆ¡ó«U¤’P^©Í*Šû[d¬ãŸß†¬‚å½b,ó çÂ¶â‹åU]ó [o.\«¾EP€,ÙÒÜ©SêÍmuoez÷2ŠúWà?]ÚíŠ/gV¢Õé}Ğğæ¢éjVAs£˜íçeøk¿ğ!QU,i*E˜õ=E•+=NQÂ¬óóêr	¥}yúkFFvA/€Ş ø%€Ë'~qÀì*ìTLŒ}Š?·<*&\ÈÓK,èP"åï›Ç§ş¸ê¸IC9KNßÇÃ·ƒqÜÛêi›v:‘¾-&‡«»w˜²õ,dğTÒw—«Ñb”Ó3”‘c>¥³P´ñ¼öZì|`ãªD|œ¨?o<kóoÖ×-ŒfDf†¶}ñŸÎCä*ûÅéO9ß|ÃˆïH¶±çj<€ğÏÖğ§ûìÜÂW»Ÿ< üCÒNÇ	]"W\†£óG¶ã›z‹ÀKäé¡×‰ÀÒm[O/Ô¯=ªµ¼M?íM’ÂÇÇz°ª¢úÃY¬_OÉ@^ÓWá+u­´ˆÍMáåÓzdàFŸQ ™’e@áèŞÒrÆPıMcDõç›‹4åOfx†ÁiÑwÄVÚ`ù{"Ó¤İà,Nyjdz‹–1xZ“Å«d…w.n01µ(É9ùxf%/LÓ6Íq¼Éé¾-˜ÂáªÑôN“ÖîÃéÏ
+7Ëß=.xó»„¢æ¢Æ"âà±]écºå@Ûnêè4èÚ²qåb)È»€cÅY%iãHH‹$óJs|Öªû[@u·eŸ©èû¥Q6p4–Kº„ã2ŠúÉ‡ˆŸ\K1|˜µòÎ<#U§ÂËÖ4/àYrÃßé¢äôET™ÜÜ	 :hÑÄŸNT4ŞŠŠúlÙì*²BÍøNÖéJ‹ñS#ÇÙ»dãgLô¦?"NÑdÇ¸Ş~Q©Ú8å«7UÈÏÌ?ªœü&é}fªYô>ÇCg‰ûÓHEü³¦ªã—y;ƒNn2ÿL.]ÃïûFIƒ°I5½©Ü`NYŠ&
+vEŞLoD³°3ˆ#|³3 ™d/Æµ¤oœ>‹Géx§©#{Xo*¡]ÛÍ¶ö/mşıŞ2ºêHıoÒö¬ğ¶îX)r¡º”;¹|şş¾Ş—µw˜µlÄŸÉE)\{¾€:^…u~«¥GuçV;SµD6Â«z[-[ØªĞ¦ti{P¶´{8ª4wëË›µªÌ¾À	GŞÈçíe²U·‹æ2ë³»¸6><ªÚ‰ƒkÃf»˜[L>[ÒTm-ôÏÏsÊ–‘*6Ö·<*vúC¼HÁŠ^U-ô·±
+{0×Yg‹%ç—oû&š‘‰İCvtxı¸mZÃwö DÿXº}AO»g×4ÓñUurËáÀ(Q©âø"ê·vn.¸R‘iÓ ú®‚A2ˆÑ%>B´Õ6UMºTj4T•·Ír[¼0TgÃâ"««Z5Jıjtsx¬u¼ú+oh´xSpm¡Ÿıf+¾øi[ûÕ#§ÖD€¥Î@J@bÁ¢‡„g?†ŸÿkúYÒ#€HT{nœèÌJ–óâ¸ò>ÇÚ3¼u®‡›šÖáU(:¥i	ÌúÒá/GG£££ÁñÒ¹ÉXU~ÅASDı¹*¶’Üj_FŒT&.YÓ›ûú.me­&·:
+.Q×êİKTr7UÌ¹b£ZÕ);=|KG—”„\AuÍG”„Â‹W¾äâ÷å³ö{=7ÎcÑşÅ¾ÍQrö¦€ó³rèª¬ôÃ¿"ª•ß‹6ß@úëŒ?ú¹KL„x]½qÀkW88²xæ@l„½İ^Õxkª<!o"yc9ÔŒ7TC+¤$Ûß\×Ä›ıø‘3¢ ©\|AŠç¢P:hZµò–)·ôwÁ2š1`;¸³÷Â¡¦[vÖŞËWf¡ÅEÿD
+eá©»Ô20ÌJ}˜ø7¹¼Øfñµr8ê,Ë.pí£! f5š­¯NGÍÍ½uÍPcJúÃÉ82h¹ğæõåOpœÖúr)³,»œW˜Á,éoy%éñ=W(é`Óªl¾ƒÂë˜ödKæyîúú“åüd\A5wS1È¸Ñ˜_·5*£òb4ñS¯5=ø¬ú~ük„WA×§Œ¬vt4®Ù(bGúlòu•.ÂT] ğ>®Û¤Yº5èğçr”ı.È;vé@)DºfnD(€8ßèoÓÇqæxÍ`X,sn­-×Ââ¿`zî1Jxÿ,ÿ@Úúºv"Så¦;tzíû3A0om¼¢!±WûÊusáq.Öx‘Šw³NyJãSÇÍ2èùd ZìŒUpµ„vË¶«ú+Ø¢C-á<kKÉN<ŞF¬øùƒ‡ÎNG_ŠMQ8ï©Wµ
+#JŞÑ=Å[ëwH|ÓÓ]F}X^µX‡RÙ²û±4(6NÁŠX„’†Ì¹uØê®
+2¥bqZàT°83¤¥U@‚•nòådoH*C•CS÷A‘/ª¹dèÉıöOÛXN©äl¢dÙYD°M«ª&,»3j©.º‘âÑ¯Ä*P–DÍVÂ)R×¤µ¢€U*§:6]¤j(åô¦a¥„E4§R*€á:…,¤Š)‡DswAĞÇÇš;Šó’Îg¤SÛÉ2·b%ÛV^Ÿ¦»Æ%ñ¡ÉE¤‚YÃÙÌ7”üò…‡ÿr£6×äÜfqZyâUğ6óOkT`Nç|ÎE‡Ÿ›v2äw/È$‹µ{tĞÆ¿Gy*nŠ{å-}+½ğfnì*ªQÕµ¼¨	JŒe¾Ç\&˜ëpÖÃNÿŒ0o?şd¬ào‹Ù:#FñåÆùÎ™ç>E¦¡Î˜Äû~•¹9;”^”œc€=Ä7ÿ¦]Š¬0ÂSZ¨pá¼À¥äzé_D¶ÿÊïzÎyø†Ä(Çé¦Œ§n‘n±'eÃšù(j\fCãvÇºôšÉmL¨¿h<—¯şı)èìêf¥Eg"7˜Û—™oÎw}pÎ;€7¸§šEÒ(Û(Õ¬¢]ÿY9¶¤EÄı7·XÌ:!¼¤)–V%äĞ$q'ñi®÷ˆ³[a–æŸiè.Æ³ ¿Uˆ*hVˆÅR¤‰ü1Ìeøw³=áëÍ,×Bn&Gnik[²}ˆû,„½Wâşø„	=†0?Éø¬Å Úì•†Íß@8g¶t›3ÉbGd½>¦ö¡	;¡éÓ!1Ø§h&ŞÂl‹–64™¼r±^>ü­T^ ü¼X™jq›s~mE¯Osš?@Uó`UBCÈYücïé¼³9w‰ß±óû'Ëõ¹dpô¤İ×c÷~D›Ÿq€5 7Ë"W’ì)O€ş 0¼Ò•êÇä>„¸FÊ¬—x£ÛK’Q]^Rí6œ!t=6¬s<ÿŒ?©pÏN¥öÑ‘çqlº‚„/^Û­¡Ü²€b‘†‚3ğ?¶£< Ù-µ¢s!bUy°=gp8öPÕ=aAØQLrÀã…ÊQ|Fì<#ït9‹õcĞ.QSùçÑ_>‘¿¿O$cÑä¡5|"9İ*ªŸÍlz$2ªò>oJ¾ˆ /b3#áyÁ-üüâ-ş!‰;xàm8µyø5_;ÑÅ5ş5C‘WÎœ¶­çGÌ*®µn¯‡Zé4ä5ı¯†ê™7î”‘ÓÓñ¾z]ÉÎ–…hh\Itµ)»ö0»e—ÑM—¿1åÈQUë±Â	ÅGº£ÓüŞDì¤naVöjş©FŸ‚C£Şñ¦z/n>EPA=ä×2æ>Ç(ºÀÿ¨{Lî«¥¥ ÂëWÚçÅ&pö”¦%Vá·ÈìöÇ£äõã€]†jÛá€bÀËÃe ‡ì–jçµ2áğfG™Ó7âÙÌ{†˜ú	ı£^7ØÄy¨iÌ|aKÊ×~4xg©ÅÃw•ƒ~p]êšñœñ°z=×çr®Â"Îû\Î“Dm"ú§HÿÜÊ“…GºÓDƒ˜2)fmÍS
+vËÃ\¥ìñ2ì¡h‡…lkÿÀ{»İ³)·_FÛ•—‹Š-rqó´Á\(œBi	v·p€fO¢¸9Ïu“nvÊÌXÙEd\Æéj¿zúH?“ yşø )–£Ô¡^%/0J4
+²GÈ³Îë”Â^Ef,è¶Ó Ck×IÒ"­ÃzQ*ğ8…Ît¹+¦±¢ó€}Õ]Ò4ë&sÖ÷?Ãªş<4ô$U ©©ÑY´h±Y«ydd2Eã¤NuC ±–OŠçí“‚î¼:C½ü:ó2àéâ”y‰š½B‡¥tØ®N¥´”R7šøóÉ5N «tX^‚Ô548ıú“Óicíh\o¹|&Êõé#ğX„°Ú½Áz—LXğÅbåIq^n²âÛiC|ŞÁó’=şàŸİftû¦ûŞ[ŒKîq—‰Il´CÅS¥dÆŸ¦bRkÖğ-cÌªh–%’<)½İÍ£ìÊY?Š³"÷…š^ ZMA Lr Ş™n+ÏÅºŸ<×Y¢úÉ•Õ¹T?6+-Ç íèwV9,c|û‰JÍ#
+æÉ,û3q¢Ò)‹•$gşhbà&Œ®éã[´èà¥Ê7ÀkoPw{>fqV9WgÅÇÉÖÊòãbBrGb>ŞôkˆĞŸKÃ§énÆ¹ÖÎ hÕQ¬n&ç!©&]Š:„d/èĞ”5Ğ¿‚9€ t4ƒy6™5jÇ¸DëRvÚFËwvŒ»6«ğŸ*5ëTgŠsši)yyôÛ‹y3 zËÂ¡ÄP0ón´Ò¥AòªÉ2ñdŠ¿[¯™—ø’á•‡İM»Ji¯@åZgä¶ ·­êáÙ‰«‡Üîª[Úú«Cshlåuœ_8`œ0zR”±Y²ğdmıé¶·2ÍÒ»–»SeØıúSNSxÔØlPÃwú
+g,c‹ÕèÑ«Zãš5dá¯?jíu¦B!|[O'İnÜN§S4w£?…}Á*¾şäQâï˜J<áèÚúU÷kz•"Ğb„»ƒ¯?{…ëSÃ˜l>W'…½%»ºÎSÌ`‚Cä¼gOq‡ Ë Yó9™­W—lJ—p±œñ†,7.†±K:“Î œ‰ÁëØ¶,‰ˆaç¡Ù¿l†GY—)×n*ZÈ!†Ì8A2ÊÉŸV1–v,éSºàşAYE!?²xÁ·Ššù º™È}+šøuĞñ9Zä.Q£D’ˆ0`&mÎl£^Dæ<îÖ5–kµZ…œÔ´§Ô&ßÕÌ.[Ü“ÕŒ0ÀÛı;)››Ã4l1K•Aµ}7®ååËË‚@
+-:]|ÇÎ‹‹¾Ó–´Tí06e±Ÿ3â,­Š’çH?Ô…„«šÅ™¹pø‡¼éãjqÈq*.<ö2ğ¢Y'7k9ŠF)¼ÇsW‚ßõz6=3Â¼©a¹‘,u‡9‰‹HÓJˆs•nÀVeœKóŠØÂõ±ÿtÜ+pœów'úÛ²=6O§|éèxL~Ş¯â_ »Ó_>&
+“»¨DˆØ‚^)/Èíå½L¨0Í2«¦¸¥T¬« ÊË,Ë.)vÑÌMEEÕÜ¦Ù"•#kª’óH=×n7ˆÏÉ(Ÿ\Phç ¡h@¸f‘8G‘Tp¦ÿ5+:Yæ6j¥gN5ÂQ’ëzÕu²=:å0ûuôF9úê½ìğ*áQYÿC¢e…¡™._²a°«^°ªÄ,Pù-†ºæ…ªJ”BµŸßepëÎÍªÇy —áİ³àåŠTë@Ü° Ú°®ÓP—ìöS×JÓä;íî0NÏ8O'?¾²/âZüãf=*‡äÜ±x&—7–{³Øb•|fUÌlpënÕáé‹˜ÉS!¨û\O˜ÉS ×¬Ä}fúÆ¥+†ñ€aXéS`˜W°ÈCbgLbİå&YèdM%‹y³K ­(ÒØyS@åî‰4aiOö€ùû#QøÚ—_G#Î–À[Ï0´2§²ƒãb…JUåîÔİP"]§TŞÙ{&…‡)A¤¡.Èâ0ûÔòPiÏ@H†¢(ëc„&Ü9 âĞS.²¢¯‘r¡ÜñZÁNØ¾ ÍíRDW!'TĞ,"ØsDØıœ'6=0ŸJğjçQæ¦+©tE%¡Xå©£ïHqTÀ9‹}ï²Î(ıQ¥m§

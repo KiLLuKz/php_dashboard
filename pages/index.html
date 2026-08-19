@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 4 - Dashboard</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:300,400,400i,700&display=fallback">
+  <!-- AdminLTE 4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta2/dist/css/adminlte.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+  <div class="app-wrapper">
+    
+    <!-- App Header / Navbar -->
+    <nav class="app-header navbar navbar-expand bg-body shadow-sm">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-lte-toggle="sidebar-toggle" href="#" role="button">
+              <i class="bi bi-list fs-4"></i>
+            </a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a href="index.html" class="nav-link active">หน้าหลัก</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a href="forms.html" class="nav-link">ฟอร์ม</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a href="tables.html" class="nav-link">ตารางข้อมูล</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <!-- Notifications Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-bs-toggle="dropdown" href="#">
+              <i class="bi bi-bell fs-5"></i>
+              <span class="navbar-badge badge text-bg-warning">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+              <span class="dropdown-item dropdown-header">การแจ้งเตือน 3 รายการ</span>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="bi bi-envelope me-2"></i> ข้อความใหม่ 2 ข้อความ
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">ดูทั้งหมด</a>
+            </div>
+          </li>
+          <!-- User Menu Dropdown -->
+          <li class="nav-item dropdown user-menu">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <i class="bi bi-person-circle fs-5 me-1"></i>
+              <span class="d-none d-md-inline">ผู้ดูแลระบบ</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+              <li class="user-header text-bg-primary text-center p-3">
+                <p class="mb-0 fw-bold">Admin User</p>
+                <small>Administrator</small>
+              </li>
+              <li class="user-footer p-2 text-end">
+                <a href="#" class="btn btn-default btn-flat">ออกจากระบบ</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- App Sidebar -->
+    <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
+      <div class="sidebar-brand">
+        <a href="index.html" class="brand-link">
+          <span class="brand-text fw-bold">AdminLTE 4</span>
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <nav class="mt-2">
+          <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">
+                <i class="nav-icon bi bi-speedometer"></i>
+                <p>Dashboard</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="forms.html" class="nav-link">
+                <i class="nav-icon bi bi-pencil-square"></i>
+                <p>ฟอร์มป้อนข้อมูล (Forms)</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="tables.html" class="nav-link">
+                <i class="nav-icon bi bi-table"></i>
+                <p>ตารางข้อมูล (Tables)</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <!-- App Main Content -->
+    <main class="app-main">
+      <div class="app-content-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <h3 class="mb-0">Dashboard (AdminLTE 4)</h3>
+            </div>
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-end">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app-content">
+        <div class="container-fluid">
+          
+          <!-- Small boxes (Stat box) -->
+          <div class="row">
+            <div class="col-lg-3 col-6">
+              <div class="small-box text-bg-primary p-3 rounded mb-3">
+                <div class="inner">
+                  <h3>150</h3>
+                  <p>คำสั่งซื้อใหม่</p>
+                </div>
+                <div class="icon">
+                  <i class="bi bi-bag"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="small-box text-bg-success p-3 rounded mb-3">
+                <div class="inner">
+                  <h3>53<sup style="font-size: 20px">%</sup></h3>
+                  <p>อัตราการเติบโต</p>
+                </div>
+                <div class="icon">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="small-box text-bg-warning p-3 rounded mb-3">
+                <div class="inner">
+                  <h3>44</h3>
+                  <p>ผู้ใช้งานใหม่</p>
+                </div>
+                <div class="icon">
+                  <i class="bi bi-person-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="small-box text-bg-danger p-3 rounded mb-3">
+                <div class="inner">
+                  <h3>65</h3>
+                  <p>ผู้เข้าชมเว็บไซต์</p>
+                </div>
+                <div class="icon">
+                  <i class="bi bi-pie-chart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Card -->
+          <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <h3 class="card-title m-0">ยินดีต้อนรับสู่ AdminLTE v4 Starter Kit</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse">
+                  <i class="bi bi-dash-lg"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5>สรุปการเปลี่ยนแปลงหลักในเวอร์ชัน 4:</h5>
+              <ul>
+                <li><strong>Bootstrap 5 Integration:</strong> รองรับการใช้งาน CSS / Components ของ Bootstrap 5 เต็มรูปแบบ</li>
+                <li><strong>Vanilla JS:</strong> ตัดการใช้ jQuery ออกทั้งหมด เพื่อประสิทธิภาพและความเบาของเว็บ</li>
+                <li><strong>Data Attributes ใหม่:</strong> เปลี่ยนจาก <code>data-widget</code> เป็น <code>data-lte-toggle</code> และเปลี่ยน Bootstrap data-toggle เป็น <code>data-bs-toggle</code></li>
+                <li><strong>CSS Utility Classes:</strong> เปลี่ยนจาก <code>ml-* / mr-* / float-left / float-right</code> เป็น <code>ms-* / me-* / float-start / float-end</code></li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <span class="text-secondary">AdminLTE 4 Template Boilerplate</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- App Footer -->
+    <footer class="app-footer text-center text-md-start p-3 border-top bg-body">
+      <div class="float-end d-none d-sm-inline">AdminLTE v4.0</div>
+      <strong>Copyright &copy; 2026 AdminLTE.</strong> All rights reserved.
+    </footer>
+
+  </div>
+
+  <!-- PopperJS & AdminLTE v4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta2/dist/js/adminlte.min.js"></script>
+</body>
+</html>
